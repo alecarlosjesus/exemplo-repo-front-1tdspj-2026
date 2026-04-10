@@ -12,16 +12,19 @@ Requisitos:
 
 Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px! */
 
+/* margin:0 0 0 0 - Aplica a todos os lados
+   margin:0 0 0  - Aplica ao top bottom e right
+   margin:0 0 - Aplica ao top bottom e right-left
+   margin:0 - Aplica a todos os lados
+*/
 *{
-    margin: 0
-    padding: 0
-    box-sizing: border-box
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html{
-    font-size: 62.5%
-}
-body{
-    background-color: #1a1b18;
-    color: #d1d1c1;
-    font-family: Arial, sans-serif;
+
+#container{
+    background-color: #f2e5f2;
+    margin: 0 auto;
+    width: 70%;
 }
