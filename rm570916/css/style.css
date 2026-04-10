@@ -1,0 +1,25 @@
+/* margin:0 0 0 0 - aplica a todos os lados 
+ margin:0 0 0 - aplica ao top bottom e right
+ margin:0 0 - aplica ao top bottom e right e right-left
+ margin:0 - aplica
+ */ 
+
+*{
+    margin: 0;
+    paddinf:0;
+    box-sizing: content-box;
+}
+
+h1{
+    color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+#container{
+    background-color:rgb(228, 96, 96);
+    margin: 0 auto;
+    width: 70%;
+}
+
