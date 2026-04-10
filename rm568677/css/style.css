@@ -1,0 +1,20 @@
+/* 
+margin:0 0 0 0 - aplica a todos os lados
+margin:0 0 0 0 - aplica ao top bottom e right
+margin:0 0 - aplica ao top-bottom e right-left
+margin:0 - aplica a todos os lados
+*/
+#container{
+    backgroud-color:rgb(228, 96, 96):
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
