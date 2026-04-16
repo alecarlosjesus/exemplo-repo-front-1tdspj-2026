@@ -1,0 +1,22 @@
+ .hero{
+    background-color: var(--big-panel);
+    color: var(--text-main);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+ }
+ .hero__container{
+    width: 100%;
+    height: 100%;
+    /* OVERLAY */
+    background-image: linear-gradient(90deg, rgba(0,0,0.6)), url(../img/9k.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
