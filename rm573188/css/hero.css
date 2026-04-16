@@ -9,6 +9,7 @@
 .hero__container{
     width: 100%;
     height: 100%;
+    /* OVERLAY */
     background-image:linear-gradient(90deg, rgba(0,0,0,0.6)), url("../../img/img-01-fundo-hero.jpg");
     background-size: cover;
     background-position: center;
