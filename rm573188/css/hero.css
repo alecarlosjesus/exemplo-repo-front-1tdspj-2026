@@ -21,3 +21,29 @@
     transform: translate(-50%, -50%);
 
 }
+
+.hero__title{
+    text-align: center;
+    margin: 2rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.hero__text{
+    text-align: justify;
+    margin: 2rem;
+    line-height: 4rem;
+
+}
+
+.hero__btn{
+    display: block;
+    margin: 10rem auto 0 auto;
+    width:10%;      
+    height: 5rem;
+    background-color: var(--bg-panel);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 0.2rem solid #fff;
+}
