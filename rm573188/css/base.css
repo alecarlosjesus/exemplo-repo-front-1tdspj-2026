@@ -9,7 +9,8 @@
 :root{
     /* Cores de Fundo e Identidade */
     --bg-dark:#1a1b1c;  /* Fundo quase preto */
-    --bg-panel:#242629; /* Fundo de cards ou seções */
+    --bg-dark-med:#4F5357;  /* Fundo quase preto */
+    --bg-panel:#242629; /* Fundo de base */
     --primary:#556b2f; /* Verde Oliva */
     --primary-hover:#6b8e23; /* Verde Oliva mais claro para o hover */
 
