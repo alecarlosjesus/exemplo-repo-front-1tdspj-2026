@@ -3,50 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Página Inicial</title>
   </head>
   <body>
-    <div id="container">
-      <header>
-        <h1>Home</h1>
-        <nav>
-          <ul>
-            <li><a href="./pagina1.html">Página-1</a></li>
-            <li><a href="./paginas/pagina2.html">Página-2</a></li>
-            <li>
-              <a href="./paginas/categorias/esportes/nauticos/vela.html"
-                >Vela</a
-              >
-            </li>
-            <li>
-              <a href="./paginas/categorias/esportes/terrestres/maratona.html"
-                >Maratona</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
+   <header class="cabecalho">
+      <nav class="cabecalho__nav">
+        <ul class="cabecalho__ul">
+          <li class="cabecalho__li cabecalho__li--active"><a class="cabecalho__a cabecalho__a--active" href="./index.html">Home</a></li>
+          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/categorias/esportes/aereos/paraquedismo.html">Paraquedismo</a></li>
+          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/categorias/esportes/nauticos/vela.html">Vela</a></li>
+          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/categorias/esportes/terrestres/maratona.html">Maratona</a></li>
+        </ul>
+      </nav>
+    </header>
+      
       <main>
-        <section>
-          <h2>Página - 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-            voluptatem neque repellat porro tempora numquam sit, doloremque
-            distinctio earum perferendis, atque quod consequatur corporis velit
-            vitae quaerat, repellendus harum vero inventore corrupti iste
-            architecto officia? Quasi voluptas doloremque, ut eum magni nobis
-            est voluptatem sint tempora ratione, numquam minus dignissimos?
-          </p>
-          <a href="./pagina1.html">mais...</a>
+
+        <section class="hero">
+          <div class="hero__container">
+          <h1 class="hero__title">Home</h1>
+          <p class="hero__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum tenetur, ipsum maxime nam odio vitae neque maiores expedita enim non dolorum aliquam cumque ratione reprehenderit magni at blanditiis ut unde minus, sint temporibus? Impedit non blanditiis atque possimus, ad doloribus.</p>
+          <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatem vitae modi unde sequi eius, alias suscipit amet aut. Cupiditate provident ducimus iure excepturi debitis tempora temporibus eius? Repudiandae cum expedita nisi consectetur dolorum amet velit pariatur facere ratione excepturi!</p>
+          <p class="hero__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, voluptatum obcaecati. Quas saepe sit praesentium dolore similique officiis dolorem necessitatibus veritatis accusamus, laudantium, culpa aut, ratione ad iusto quibusdam! Velit sit ea atque est inventore earum accusamus fugit, voluptas nesciunt?</p>
+          <p class="hero__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis eligendi debitis exercitationem, aliquid, eius, dolore voluptate dolorem porro dolores neque cupiditate odio nulla. Quas eligendi, ea, et amet velit in voluptates, veritatis fugit error dicta sint dignissimos libero dolores ut!</p>
+          <a href="./pagina1.html" class="hero__btn">mais...</a>
+          </div>
         </section>
+
         <section>
           <h2>Página - 2</h2>
           <p>
@@ -91,9 +75,8 @@
       </main>
       <footer>
         <p>
-          &copy; - 2026 - Alexandre C. de Jesus - Todos os direitos reservados
+          &copy; - 2026 - Christian Verzellesi Barbuto - Todos os direitos reservados
         </p>
       </footer>
-    </div>
-  </body>
+    </body>
 </html>
