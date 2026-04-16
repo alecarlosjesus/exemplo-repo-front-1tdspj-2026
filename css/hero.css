@@ -15,18 +15,19 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
-    position: absolute;
+  
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+  
 
 }
 
-.hero__title{
+.hero__title {
+    font-size: clamp(2.5rem, 5vw, 4rem); 
     text-align: center;
-    margin: 0 2rem 2rem 2rem;
-    font-size: 4rem;
-    font-weight: 500;
+    margin-bottom: 2rem;
 }
 
 .hero__text{
@@ -38,7 +39,7 @@
 
 .hero__btn{
     display: block;
-    margin: 10rem auto 0 auto;
+    margin: 5% auto 0;
     width: 10%;
     height: 7rem;
     background-color: var(--primary);
@@ -50,4 +51,22 @@
     padding: 2rem;
     border-radius: 10px;
     border: 0.2rem solid #fff;
+}
+
+
+@media (max-width: 1400px) {
+    .hero__text {
+        line-height: 3rem; /* Diminui o entrelinhamento que estava muito alto (6rem) para telas menores */
+        font-size: 1.82rem;
+    }
+ 
+    .hero__btn{
+        margin: 0.1rem auto 0;
+        height: auto;
+    }
+    
+    .hero__title {
+        font-size: 4rem;
+        margin-top: 4rem;
+    }
 }
