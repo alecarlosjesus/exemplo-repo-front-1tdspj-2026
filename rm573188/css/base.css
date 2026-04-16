@@ -1,46 +1,30 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-    font-weight: normal;
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+   font-size: 100%;
+   font-weight: normal;
 }
-
-/* Variavei Globais do CSS */
-/* Declarando um varialvem em css
---indentificador = geralmente um nome associado a uma propriedade
-calor : valores validos para aquela propriedade
-EX: --cor-fundo-padrao:#ff0000 
-Ultilizando:
-p{
-background-color} : var (--cor-fundo-padrao)
-}
-ultilização de segurança: Caso a função var() não encontre a variálvel podemos determinar um segundo valor para ser carregado.
-p{
-background-color} : var (--cor-fundo-padrao, red)
-}*/
-
 
 :root{
- /* Cores de fundo e Indentidade */
-     --bg-dark: #1a1b1c; /*fundo quase preto  */
-    --bg-painel: #242629 /*Fundo de cards ou seções*/
-    --primary: #556b2f /*Verde Oliva*/
-    --primary-hover: #6b8e23 /*Verde Oliva mais claro para o hover*/
+    /* Cores de Fundo e Identidade */
+    --bg-dark:#1a1b1c;  /* Fundo quase preto */
+    --bg-panel:#242629; /* Fundo de cards ou seções */
+    --primary:#556b2f; /* Verde Oliva */
+    --primary-hover:#6b8e23; /* Verde Oliva mais claro para o hover */
 
-/* Cores e Texto */
---text-main: #e0e0e0; /*Branco acinzentado */
---text-muted: #a0a0a0; /*Textos menos importantes */
---text-inv: #ffffff; /*Branco puro para contraste no verde do hover */
-
+    /* Cores de Texto */
+    --text-main:#e0e0e0; /* Branco acinzentado */
+    --text-muted:#a0a0a0; /* Textos menos importantes */
+    --text-inv:#ffffff; /* Branco puro para contraste no verde do hover */
 }
 
-html {
-     font-size: 62.5%; /*10px = 1rem */
+html{
+    font-size: 62.5%;/* 10px = 1rem */
 }
 
 body{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
@@ -57,5 +41,5 @@ ul{
 
 a{
     text-decoration: none;
-
+    color:inherit;
 }
