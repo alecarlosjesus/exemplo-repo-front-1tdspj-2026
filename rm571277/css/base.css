@@ -1,0 +1,75 @@
+/* Olá! Sua tarefa é preparar a base do nosso projeto.
+
+Requisitos:
+
+    No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.
+
+    No html, configure a fonte base usando 62.5%.
+
+    No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).
+
+    Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.
+
+Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px! */
+
+/* margin:0 0 0 0 - Aplica a todos os lados
+   margin:0 0 0  - Aplica ao top bottom e right
+   margin:0 0 - Aplica ao top bottom e right-left
+   margin:0 - Aplica a todos os lados
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/*Variáveis globais do css*/
+/* Declarando um variável em css
+-- identificador = geralmente um nome associado a um propriedade css
+valor = Valores vlidos para a propriedade css associada
+exemplo: --cor-fundo-padrao: #ff0000;
+ulttilização = 
+p{
+    background-color: var(--cor-fundo-padrao);
+}
+ultilizacaao de seguraança: caso a funcao var() não encontre a variável, podemos determinar um segundo valor para ser carregado, exemplo:
+p{ 
+    background-color: var(--cor-fundo-padrao, red);
+}
+*/
+:root{
+    /* Cores de fundo e identidade*/
+    --bg-dark: #1a1b18; /* Fundo quase preto */
+    --bg-panel: #242629; /* Fundo de cards ou seções */
+    --primry: #556b2f; /* verde oliva */
+    --primry-hover: #6b8e23; /* verde oliva mais claro para o hover */
+
+    /* Cores de texto */
+    --text-main: #e0e0e0; /* branco acinzentado */
+    --text-muted: #a0a0a0; /* texto menos importante */
+    --text-inv: #ffffff; /* Branco puro para destaque no verde do hover */
+
+}
+html{
+    font-size: 62.5%;/* 10 px = 1 rem */
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
