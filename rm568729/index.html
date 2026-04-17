@@ -3,29 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/main.css" />
 
     <title>Página Inicial</title>
   </head>
+
   <body>
-    <header>
-      <h1>Home</h1>
-      <nav>
-        <ul>
-          <li><a href="./pagina1.html">Página-1</a></li>
-          <li><a href="./paginas/pagina2.html">Página-2</a></li>
-          <li>
-            <a href="./paginas/categorias/esportes/nauticos/vela.html">Vela</a>
-          </li>
-          <li>
-            <a href="./paginas/categorias/esportes/terrestres/maratona.html"
-              >Maratona</a
-            >
-          </li>
+
+    <header class="cabecalho">
+      <nav class="cabecalho__nav">
+        <ul class="cabecalho__ul">
+          <li class="cabecalho__li cabecalho__li--active"><a class="cabecalho__a cabecalho__a--active" href="./index.html">Home</a></li>
+          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/categorias/esportes/aereos/paraquedismo.html">Paraquedismo</a></li>
+          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/categorias/esportes/nauticos/vela.html">Vela</a></li>
+          <li class="cabecalho__li"><a class="cabecalho__a" href="./paginas/categorias/esportes/terrestres/maratona.html">Maratona</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+
+    <main> 
+      <section class="hero">
+        <div class="hero__container">
+          <h1 class="hero__title">ESPORTE TOTAL DO MUNDO</h1>
+          <p class="hero__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit eaque
+            et aliaas quibusdam corporis assumenda ratione, consequatur cumque
+            earum iusto eos exercitationem ea veniam. Alias assumenda possimus
+            necessitatibus voluptates! Reiciendis ad, porro vitae tempore
+            possimus ratione. Assumenda fuga maxime a!
+          </p>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            possimus porro doloremque accusantium suscipit dicta. Dignissimos
+            totam maxime magni ipsam? Molestiae itaque ducimus dolorem a
+            nesciunt quam unde explicabo reprehenderit optio est illo natus
+            dolorum suscipit, eos, tempora expedita eaque.
+          </p>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            fuga laboriosam ut sapiente pariatur placeat officiis delectus nulla
+            beatae harum, magni ratione reprehenderit minus veritatis, natus
+            vero praesentium cupiditate sit maiores? Ut fuga repellendus placeat
+            rerum assumenda rem in aliquid!
+          </p>
+          <p class="hero__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
+            et tempora, fugit facere iusto dicta, fugiat officiis dolor itaque
+            iste optio! Quas dolores totam eaque aspernatur impedit iure aperiam
+            aliquid laudantium? Delectus cumque nulla aliquam eligendi esse
+            magnam temporibus amet?
+          </p>
+          <a class="hero__btn" href="./pagina1.html">mais...</a>
+        </div>
+      </section>
+
       <section>
         <h2>Página - 1</h2>
         <p>
@@ -38,6 +70,7 @@
         </p>
         <a href="./pagina1.html">mais...</a>
       </section>
+
       <section>
         <h2>Página - 2</h2>
         <p>
@@ -71,7 +104,7 @@
           repellendus. Eligendi quam odio, cum accusamus ullam sunt maxime
           voluptates id cupiditate assumenda corrupti, dignissimos distinctio.
         </p>
-       <i class="fa-solid fa-person-running" title="Vamos correr por ai!"></i>
+        <i class="fa-solid fa-person-running" title="Vamos correr por ai!"></i>
         <a href="./paginas/categorias/esportes/terrestres/maratona.html"
           >mais...</a
         >
