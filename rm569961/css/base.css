@@ -61,6 +61,8 @@ p{
     --text-inv: #ffffff; /* Branco puro para contraste*/
 }
 
+
+/* todo estilo que tiver travado joga no reset*/
 * {
   margin: 0;
   padding: 0;
@@ -82,7 +84,6 @@ body{
 
 main{
     width: 100%;
-    height: 100%; 
 }
 
 ul{
