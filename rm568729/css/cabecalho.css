@@ -7,8 +7,3 @@
     height: 5%;
 }
 
-@media (orientation: portrait){
-    .cabecalho{
-      background-color: #ff0000;  
-    }
-}
