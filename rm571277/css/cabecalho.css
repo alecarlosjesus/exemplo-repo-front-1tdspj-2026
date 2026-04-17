@@ -4,7 +4,20 @@
     color: #fff;
     background-color: var(--bg-dark-med);
     width: 100%;
-    height: 5%;
+    height: auto;
+}
+
+.cabecalho__nav, .cabecalho__ul{
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho__li{
+    display: inline-block;
+    margin: 1.5rem 2rem;
+}
+.cabecalho__li--active{
+    float: right;
 }
 
 @media (orientation: portrait){
