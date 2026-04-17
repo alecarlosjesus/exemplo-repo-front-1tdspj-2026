@@ -47,3 +47,15 @@
     border-radius: 10px;
     border: 0.2rem solid #fff;
 }
+
+@media (min-width: 1920px){
+ .hero__title {
+    font-size: 8rem;
+  }
+
+  .hero__text {
+    line-height: 4.3rem;
+    font-size: 2.8rem;
+  }
+}
+

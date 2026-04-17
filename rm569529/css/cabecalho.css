@@ -6,3 +6,9 @@
     width: 100%;
     height: 5%;
 }
+/*breakpoint*/
+@media (orientation: landscape){
+    .cabecalho{
+    background-color: red; 
+    }
+}
