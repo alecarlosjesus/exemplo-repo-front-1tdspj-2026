@@ -28,12 +28,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-size: 2rem;
-}
-
-
-main{
-    width: 100%;
+    font-size: 2rem;
 }
 
 ul{
@@ -44,4 +39,3 @@ a{
     text-decoration: none;
     color:inherit;
 }
-/* Todo estilo travado jogar font-size no * */
