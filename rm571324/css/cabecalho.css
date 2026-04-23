@@ -1,0 +1,24 @@
+.cabecalho{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    background-color: var(--bg-dark-med);
+    width: 100%;
+    height: 5%;
+}
+
+@media (orientation: portrait){
+    .cabecalho{
+      background-color: #ff0000;  
+    }
+}
+
+.cabecalho__nav, .cabecalho__ul{
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho__li{
+    display: inline-block;
+    margin: 1.5rem 2rem;
+}
